@@ -87,9 +87,8 @@
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="index.html">Tất cả</a></li>
-            <li><a class="dropdown-item" href="chinhtrigia.html" id="daibieuLink">Chính trị gia</a></li>
             <li><a class="dropdown-item" href="daibieuquochoi.html" id="daibieuLink">Đại biểu quốc hội</a></li>
-            <li><a class="dropdown-item" href="uyvientrunguong.html" id="chinhtrigiaLink">Ủy viên trung ương</a></li>
+            <li><a class="dropdown-item" href="#" id="chinhtrigiaLink">Ủy viên trung ương</a></li>
           </ul>
           <input
             type="text"
@@ -100,72 +99,14 @@
             aria-describedby="button-addon2"
           />
           <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="searchButton">Tìm kiếm</button>
+            <button class="btn btn-outline-secondary" type="button" onclick="search()">Tìm kiếm</button>
           </div>
         </div>
       </div>
-      <div id="profileContainer"></div>
-      <div class="wrap-profile">
-        <div class="box-chinhtrigia py-2">
-          <div class="box-infocontac py-2">
-            <div class="h4 pb-12 pt-12 mb-4 mt-12 text-danger border-bottom border-danger">
-              <div class="title-group">
-                <div class="title">Chính trị gia</div>
-                <div class="sub-title">
-                  <a href="chinhtrigia.html">Xem thêm <i class="fas fa-angle-double-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="title"><h1>Chính trị gia</h1></div>
 
-          <div class="body-profile" id="chinhtrigia-list">
-            <!-- Các thông tin của Chính trị gia sẽ được thêm vào đây -->
-          </div>
-        </div>
-
-        <div class="box-daibieuquochoi py-2">
-          <div class="box-infocontact py-2">
-            <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
-              <div class="title-group">
-                <div class="title">Đại biểu quốc hội</div>
-                <div class="sub-title">
-                  <a href="daibieuquochoi.html">Xem thêm <i class="fas fa-angle-double-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="body-profile" id="daibieuquochoi-list">
-            <!-- Các thông tin của Đại biểu quốc hội sẽ được thêm vào đây -->
-          </div>
-        </div>
-        <div class="box-uyvientrunguong py-2">
-          <div class="box-infocontact py-2">
-            <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
-              <div class="title-group">
-                <div class="title">Ủy viên chính trị</div>
-                <div class="sub-title">
-                  <a href="uyvientrunguong.html">Xem thêm <i class="fas fa-angle-double-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="body-profile" id="uyvientrunguong-list">
-            <!-- Các thông tin của Đại biểu quốc hội sẽ được thêm vào đây -->
-          </div>
-        </div>
-
-        <div class="box-chinhtrigia py-2">
-          <div class="box-infocontact py-2">
-            <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">Tin Thời sự</div>
-          </div>
-          <!--           
-                    <div class="body-profile" id="daibieuquochoi-list">
-                    </div> -->
-        </div>
-      </div>
+      <div id="pageChinhtrigia" class="body-profile"></div>
+      <div id="pagination" class="pagination"></div>
     </div>
-    <script src="js/main.js"></script>
   </body>
 </html>
