@@ -78,5 +78,29 @@
         </div>
       </nav>
     </div>
+    <div class="container mt-3">
+      <div class="profile-filter">
+        <h4>Thông tin hồ sơ</h4>
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tất cả</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index.html">Tất cả</a></li>
+            <li><a class="dropdown-item" href="chinhtrigia.html" id="daibieuLink">Chính trị gia</a></li>
+            <li><a class="dropdown-item" href="daibieuquochoi.html" id="daibieuLink">Đại biểu quốc hội</a></li>
+            <li><a class="dropdown-item" href="uyvientrunguong.html" id="chinhtrigiaLink">Ủy viên trung ương</a></li>
+          </ul>
+          <input type="text" class="form-control" id="searchInput" placeholder="Nhập tên hồ sơ" aria-label="Nhập tên hồ sơ" aria-describedby="button-addon2" />
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="searchButton">Tìm kiếm</button>
+          </div>
+        </div>
+      </div>
+      <div class="title"><h1>Trang đại biểu quốc hội</h1></div>
+
+      <div id="pageDaibieuquochoi" class="body-profile"></div>
+      <div id="pagination" class="pagination"></div>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
