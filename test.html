@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="profile-tab">
+      <!-- Your profiles here -->
+      <div class="profile">Profile 1</div>
+      <!-- ... more profiles ... -->
+    </div>
+    <div class="profile-tab-pagination">
+      <!-- Pagination links will be created here -->
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let currentPage = 1;
+        const profilesPerPage = 5;
+        const profiles = document.querySelectorAll(".profile-tab .profile"); // your profiles
+        const totalPages = Math.ceil(profiles.length / profilesPerPage);
+
+        function showPage(page) {
+          const start = (page - 1) * profilesPerPage;
+          const end = page * profilesPerPage;
+          profiles.forEach((profile, index) => {
+            profile.style.display = index >= start && index < end ? "block" : "none";
+          });
+        }
+
+        function createPagination() {
+          const paginationContainer = document.querySelector(".profile-tab-pagination"); // your pagination container
+          for (let i = 1; i <= totalPages; i++) {
+            let pageLink = document.createElement("a");
+            pageLink.innerText = i;
+            pageLink.href = "#";
+            pageLink.onclick = function (e) {
+              e.preventDefault();
+              currentPage = i;
+              showPage(currentPage);
+            };
+            paginationContainer.appendChild(pageLink);
+          }
+        }
+
+        // Initialize
+        showPage(currentPage);
+        createPagination();
+      });
+    </script>
+  </body>
+</html>

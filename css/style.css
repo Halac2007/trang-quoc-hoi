@@ -386,3 +386,39 @@ a {
 .item-more .thumb img {
   width: 100%;
 }
+
+/*-------------*/
+.box-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.item-title {
+  margin-top: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-outline-secondary {
+  margin: 0 5px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

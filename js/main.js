@@ -63,11 +63,109 @@ document.addEventListener("DOMContentLoaded", function () {
   //
 
   const renderUyvientrunguong = (data) => {
-    const pageUyvientrunguong = document.querySelector("#pageUyvientrunguong");
+    const pageUyvienchinthuc = document.querySelector("#pageUyvienchinhthuc");
+    const pageUyviendukhuyet = document.querySelector("#pageUyviendukhuyet");
     const uyVienTrungUongProfiles = filterProfilesByType(data, "uyvientrunguong");
-    uyVienTrungUongProfiles.forEach((profile) => {
-      pageUyvientrunguong.appendChild(createProfileCard(profile));
+
+    const dataUyVienChinhThuc = uyVienTrungUongProfiles.filter((item) => item.tinhtrang == "Chính thức");
+    const dataUyVienDuKhuyet = uyVienTrungUongProfiles.filter((item) => item.tinhtrang == "Dự khuyết");
+
+    dataUyVienChinhThuc.forEach((profile) => pageUyvienchinthuc.appendChild(createProfileCard(profile)));
+    dataUyVienDuKhuyet.forEach((profile) => pageUyviendukhuyet.appendChild(createProfileCard(profile)));
+  };
+
+  //
+
+  const itemsPerPage = 6; // số lượng mục trên mỗi trang
+  let currentPage = 1; // Trang hiện tại
+
+  const displayPageChinhTriGia = (data) => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const dataChinhTriGia = filterProfilesByType(data, "chinhtrigia");
+    const sliceData = dataChinhTriGia.slice(startIndex, endIndex);
+
+    const containerPage = document.querySelector("#pageChinhtrigia");
+    containerPage.innerHTML = ""; // xóa nội dung
+
+    sliceData.forEach((profile) => {
+      const card = createProfileCard(profile);
+      containerPage.appendChild(card);
     });
+
+    const totalPages = Math.ceil(dataChinhTriGia.length / itemsPerPage);
+    addPagination(totalPages);
+  };
+
+  const addPagination = (totalPages) => {
+    const paginationContainer = document.getElementById("pagination");
+    paginationContainer.innerHTML = "";
+    for (let i = 1; i <= totalPages; i++) {
+      const pageButton = document.createElement("button");
+      pageButton.textContent = i;
+      pageButton.addEventListener("click", () => {
+        currentPage = i;
+        fetchData();
+      });
+      paginationContainer.appendChild(pageButton);
+    }
+  };
+
+  //
+  const displayPageDaiBieuQuocHoi = (data) => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const dataDaiBieuQuocHoi = filterProfilesByType(data, "daibieuquochoi");
+
+    const sliceData = dataDaiBieuQuocHoi.slice(startIndex, endIndex);
+
+    const containerPage = document.querySelector("#pageDaibieuquochoi");
+    containerPage.innerHTML = ""; // xóa nội dung
+
+    sliceData.forEach((profile) => {
+      const card = createProfileCard(profile);
+      containerPage.appendChild(card);
+    });
+
+    const totalPages = Math.ceil(dataDaiBieuQuocHoi.length / itemsPerPage);
+    addPagination(totalPages);
+  };
+  //
+
+  const displayPageUyvienTrunguong = (data) => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const dataUyVien = filterProfilesByType(data, "uyvientrunguong");
+
+    const dataUyVienChinhThuc = dataUyVien.filter((item) => item.tinhtrang == "Chính thức");
+    const dataUyVienDukhuyet = dataUyVien.filter((item) => item.tinhtrang == "Dự khuyết");
+    const sliceDataChinhThuc = dataUyVienChinhThuc.slice(startIndex, endIndex);
+    const sliceDataDuKhuyet = dataUyVienDukhuyet.slice(startIndex, endIndex);
+
+    const containerPageCT = document.querySelector("#pageUyvienchinhthuc");
+    containerPageCT.innerHTML = ""; // xóa nội dung
+
+    const containerPageDK = document.querySelector("#pageUyviendukhuyet");
+    containerPageDK.innerHTML = ""; // xóa nội dung
+
+    // Append sliced "Chính thức" profiles to its corresponding container
+    sliceDataChinhThuc.forEach((profile) => {
+      const cardChinhThuc = createProfileCard(profile);
+      containerPageCT.appendChild(cardChinhThuc);
+    });
+
+    // Append all "Dự khuyết" profiles to its corresponding container
+    sliceDataDuKhuyet.forEach((profile) => {
+      const cardDuKhuyet = createProfileCard(profile);
+      containerPageDK.appendChild(cardDuKhuyet);
+    });
+
+    //
+    const totalPages = Math.ceil(dataUyVienChinhThuc.length / itemsPerPage);
+    addPagination(totalPages);
+
+    const totalPagesDK = Math.ceil(dataUyVienDukhuyet.length / itemsPerPage);
+    addPagination(totalPagesDK);
   };
 
   function fetchData() {
@@ -80,12 +178,15 @@ document.addEventListener("DOMContentLoaded", function () {
           renderHome(data);
         } else if (window.location.pathname.endsWith("uyvientrunguong.html")) {
           renderUyvientrunguong(data);
+          displayPageUyvienTrunguong(data);
 
           // Thêm nút phân trang
         } else if (window.location.pathname.endsWith("daibieuquochoi.html")) {
           renderDaibieuquochoi(data);
+          displayPageDaiBieuQuocHoi(data);
         } else if (window.location.pathname.endsWith("chinhtrigia.html")) {
           renderChinhTriGia(data);
+          displayPageChinhTriGia(data);
         }
         //
         const urlParams = new URLSearchParams(window.location.search);

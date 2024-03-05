@@ -6,6 +6,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": true,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -51,6 +52,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": true,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -96,6 +98,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": true,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -141,6 +144,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": true,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -186,6 +190,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": false,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -231,6 +236,7 @@
     "chinhtrigia": true,
     "daibieuquochoi": false,
     "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -273,9 +279,10 @@
     "hoten": "ÔNG TÔ LÂM",
     "chucvu": "Bộ trưởng Bộ Công An",
     "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/01/31/19/20210131192241-ttxvn_to_lam-(1).jpg?width=400&s=j5CW0kLNhsFWRtPaUkNmjg",
-    "chinhtrigia": false,
+    "chinhtrigia": true,
     "daibieuquochoi": true,
-    "uyvientrunguong": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
@@ -318,9 +325,654 @@
     "hoten": "ÔNG PHAN ĐÌNH TRẠC",
     "chucvu": "Trưởng ban Nội chính Trung Ương",
     "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/01/31/19/20210131191628-ttxvn_phan_dinh_trac-(1).jpg?width=400&s=dUAX9i0Jq2t5dBFw6r4ldg",
-    "chinhtrigia": false,
+    "chinhtrigia": true,
     "daibieuquochoi": true,
-    "uyvientrunguong": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG TRẦN CẨM TÚ",
+    "chucvu": "Chủ Nhiệm Ủy Ban Kiểm Tra Trung Ương",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/01/31/19/20210131191448-ttxvn_tran_cam_tu-(1).jpg?width=400&s=0wiOWfhfRABwa_uGhY7qjg",
+    "chinhtrigia": true,
+    "daibieuquochoi": true,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG PHAN VĂN GIANG",
+    "chucvu": "Bộ trưởng Bộ Quốc Phòng",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/07/12/20210407120053-vna-potal-danh-sach-bo-chinh-tri-ban-chap-hanh-trung-uong-dang-cong-san-viet-nam-khoa-xiii-141930087-5271196.jpg?width=400&s=gdQypyBibP1IEFLjzYs_3Q",
+    "chinhtrigia": true,
+    "daibieuquochoi": true,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG NGUYỄN HÒA BÌNH",
+    "chucvu": "Chánh án Tòa án nhân dân tối cao",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/01/31/19/20210131191256-ttxvn_nguyen_hoa_binh-(1).jpg?width=400&s=lEUmX-jidLZlc-4FREA9Nw",
+    "chinhtrigia": true,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG TRẦN THANH MẪN",
+    "chucvu": "Phó Chủ tịch thường trực Quốc hội",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/01/31/19/20210131193316-ttxvn_tran_thanh_man-(1).jpg?width=400&s=sTh-8rf6g1z0n-E6H0KESg",
+    "chinhtrigia": true,
+    "daibieuquochoi": true,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG NGUYỄN XUÂN THẮNG",
+    "chucvu": "Giám đốc Học viện Chính trị quốc gia Hồ Chí Minh",
+    "anh": "https://static-images.vnncdn.net/images/2023/3/6/00003R/thumb-xuan-thang.jpg?width=400&s=KvZ3PhJMA8DUCbslZS4B4A",
+    "chinhtrigia": true,
+    "daibieuquochoi": true,
+    "uyvientrunguong": true,
+    "tinhtrang": "Chính thức",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG LƯƠNG NGUYỄN MINH TRIẾT",
+    "chucvu": "Bí thư Tỉnh ủy Quảng Nam",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110407-Luong-Nguyen-Minh-Triet.jpg?width=400&s=rCktlviT94Z066AqryLRjg",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG LÊ HẢI BÌNH",
+    "chucvu": "Phó Trưởng Ban Tuyên giáo Trung ương",
+    "anh": "https://static-images.vnncdn.net/images/2023/10/23/00003R/thumb.jpg?width=400&s=7bJ0GhZTF8iBOWhf0f3DFA",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG VŨ MẠNH HÀ",
+    "chucvu": "Phó Bí thư Tỉnh ủy Lai Châu",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110858-Vu-Manh-Ha.jpg?width=400&s=kttvqPvivYL57ZIBxTdANw",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG NGUYỄN VĂN HIẾU",
+    "chucvu": "Bí thư Thành ủy TP Cần Thơ",
+    "anh": "https://static-images.vnncdn.net/images/2023/5/27/00003R/nguyen-van-hieu-thumb.png?width=400&s=2dB1gGYk8IVE_w2v3cDZfA",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG NGUYỄN HOÀI ANH",
+    "chucvu": "Phó Bí thư Thường trực Tỉnh ủy, Chủ tịch HĐND tỉnh Bình Thuận",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110923-Nguyen-Hoai-Anh.jpg?width=400&s=DeWR_i_r2AdFzCEr9VI_Yg",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG VÕ CHÍ CÔNG",
+    "chucvu": "Trưởng Ban Tổ chức Tỉnh ủy Sóc Trăng",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110922-Vo-Chi-Cong.jpg?width=400&s=q9hoieoufwxgDEWZNc2UaQ",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG BÙI THẾ DUY",
+    "chucvu": "Thứ trưởng Bộ Khoa học và Công nghệ",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110922-Bui-The-Duy.jpg?width=400&s=6gq6xIDnJ38QLQfqzfSTqw",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG U HUẤN",
+    "chucvu": "Trưởng Ban Nội chính Tỉnh ủy Kon Tum",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110858-U-Huan.jpg?width=400&s=nUFgGFniws4nXSWtBjYGBg",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
+    "thongtincanhan": {
+      "ngaysinh": "14/04/1944",
+      "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",
+      "hocvi": "Giáo sư, Tiến sĩ Chính trị học (chuyên ngành Xây dựng Đảng), Cử nhân Ngữ văn"
+    },
+    "quatrinhcongtac": [
+      {
+        "thoigian": "1957 - 1963",
+        "noicongtac": "Học trường phổ thông cấp II, cấp III Nguyễn Gia Thiều, Gia Lâm, Hà Nội"
+      },
+      {
+        "thoigian": "1963 - 1967",
+        "noicongtac": "Sinh viên khoa Ngữ văn trường Đại học Tổng hợp Hà Nội"
+      },
+      {
+        "thoigian": "12/1967 - 7/1968",
+        "noicongtac": "Làm việc tại Phòng Tư liệu Tạp chí Học tập (nay là Tạp chí Cộng sản)"
+      }
+    ],
+    "sliderImages": [
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_10_08/tong-bi-thu-quy-hoach-nhan-su-9433-9700-4439.jpg.webp",
+        "caption": "Mô tả ảnh 1"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_12_19/toan-van-phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-ngoai-giao-lan-thu-32-5903.jpg.webp",
+        "caption": "Mô tả ảnh 2"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/vowklqmx/2023_12_19/tongbithu4-309.jpg",
+        "caption": "Mô tả ảnh 3"
+      },
+      {
+        "imageUrl": "https://image.plo.vn/270x180/Uploaded/2024/xqeioxdrky/2023_11_22/tong-bi-thu-chu-tri-hop-phong-chong-tham-nhung-7-91-6096-5446.jpg",
+        "caption": "Mô tả ảnh 4"
+      }
+    ]
+  },
+  {
+    "hoten": "ÔNG HỒ VĂN MỪNG",
+    "chucvu": "Bí thư Thành ủy Nha Trang, tỉnh Khánh Hòa",
+    "anh": "https://prof-imgs.vgcloud.vn/Images/v-profile/2021/04/04/11/20210404110610-Ho-Van-Mung.jpg?width=400&s=SWBWyXxB8f2WgPa3uDb19g",
+    "chinhtrigia": false,
+    "daibieuquochoi": false,
+    "uyvientrunguong": true,
+    "tinhtrang": "Dự khuyết",
     "thongtincanhan": {
       "ngaysinh": "14/04/1944",
       "quequan": "Xã Đông Hội, Huyện Đông Anh, Hà Nội",

@@ -95,10 +95,55 @@
           </div>
         </div>
       </div>
+      <div class="page-content">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+              type="button"
+              role="tab"
+              aria-controls="home"
+              aria-selected="true"
+            >
+              Ủy viên chính thức
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile"
+              type="button"
+              role="tab"
+              aria-controls="profile"
+              aria-selected="false"
+            >
+              Ủy viên dự khuyết
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div id="pageUyvienchinhthuc" class="body-profile"></div>
+          <div id="pagination" class="pagination"></div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div id="pageUyviendukhuyet" class="body-profile"></div>
+            <div id="pagination" class="pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 
       <div class="title"><h1>Chính trị gia</h1></div>
 
       <div id="pageUyvientrunguong" class="body-profile"></div>
-      <div id="pagination" class="pagination"></div>
+      <div id="pagination" class="pagination"></div> -->
     </div>
     <script src="js/main.js"></script>
   </body>
