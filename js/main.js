@@ -112,6 +112,34 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   //
+  const addPaginationChinhThuc = (totalPages) => {
+    const paginationContainer = document.getElementById("pagination-chinhthuc");
+    paginationContainer.innerHTML = "";
+    for (let i = 1; i <= totalPages; i++) {
+      const pageButton = document.createElement("button");
+      pageButton.textContent = i;
+      pageButton.addEventListener("click", () => {
+        currentPage = i;
+        fetchData();
+      });
+      paginationContainer.appendChild(pageButton);
+    }
+  };
+  //
+  const addPaginationDuKhuyet = (totalPages) => {
+    const paginationContainer = document.getElementById("pagination-dukhuyet");
+    paginationContainer.innerHTML = "";
+    for (let i = 1; i <= totalPages; i++) {
+      const pageButton = document.createElement("button");
+      pageButton.textContent = i;
+      pageButton.addEventListener("click", () => {
+        currentPage = i;
+        fetchData();
+      });
+      paginationContainer.appendChild(pageButton);
+    }
+  };
+  //
   const displayPageDaiBieuQuocHoi = (data) => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
@@ -162,11 +190,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //
     const totalPages = Math.ceil(dataUyVienChinhThuc.length / itemsPerPage);
-    addPagination(totalPages);
+    addPaginationChinhThuc(totalPages);
 
     const totalPagesDK = Math.ceil(dataUyVienDukhuyet.length / itemsPerPage);
-    addPagination(totalPagesDK);
+    addPaginationDuKhuyet(totalPagesDK);
   };
+
+  //
 
   function fetchData() {
     fetch("../data/thongtin.json")
@@ -200,10 +230,14 @@ document.addEventListener("DOMContentLoaded", function () {
           profileContent.querySelector(".profile-name").textContent = profile.hoten;
           profileContent.querySelector(".profile-position").textContent = profile.chucvu;
           profileContent.querySelector(".profile-birthdate").innerHTML = `
-               <i class="far fa-calendar">${profile.thongtincanhan.ngaysinh}</i> 
+          <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+          ${profile.thongtincanhan.ngaysinh}
                `;
-          profileContent.querySelector(".profile-hometown").innerHTML = `<i class="fas fa-location-arrow">${profile.thongtincanhan.quequan}</i>`;
-          profileContent.querySelector(".profile-education").innerHTML = `<i class="fas fa-user-graduate">${profile.thongtincanhan.hocvi}</i> `;
+          profileContent.querySelector(".profile-hometown").innerHTML = `<i class="fa fa-location-arrow" aria-hidden="true"></i>
+          ${profile.thongtincanhan.quequan}`;
+          profileContent.querySelector(".profile-education").innerHTML = `<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          ${profile.thongtincanhan.hocvi}`;
+
           //
           const workHistoryList = profileContent.querySelector(".profile-work-history");
           profile.quatrinhcongtac.forEach((item) => {

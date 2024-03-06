@@ -2,53 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Search Page</title>
   </head>
   <body>
-    <div class="profile-tab">
-      <!-- Your profiles here -->
-      <div class="profile">Profile 1</div>
-      <!-- ... more profiles ... -->
+    <div id="searchBox">
+      <input type="text" id="searchInput" placeholder="Search by name or position..." />
+      <button id="searchButton" onclick="searchData()">Search</button>
     </div>
-    <div class="profile-tab-pagination">
-      <!-- Pagination links will be created here -->
+
+    <div id="searchResults">
+      <!-- Search results will appear here -->
     </div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        let currentPage = 1;
-        const profilesPerPage = 5;
-        const profiles = document.querySelectorAll(".profile-tab .profile"); // your profiles
-        const totalPages = Math.ceil(profiles.length / profilesPerPage);
+      // Function to handle the search and display the results
+      function searchData() {
+        const searchTerm = document.getElementById("searchInput").value.trim();
+        if (searchTerm) {
+          fetch("../data/thongtin.json")
+            .then((response) => response.json())
+            .then((data) => {
+              // Filter the data using the search term
+              const results = data.filter(
+                (profile) => profile.hoten.toLowerCase().includes(searchTerm.toLowerCase()) || profile.chucvu.toLowerCase().includes(searchTerm.toLowerCase())
+              );
 
-        function showPage(page) {
-          const start = (page - 1) * profilesPerPage;
-          const end = page * profilesPerPage;
-          profiles.forEach((profile, index) => {
-            profile.style.display = index >= start && index < end ? "block" : "none";
-          });
+              // Call a function to update the DOM with the search results
+              updateSearchResults(results);
+            })
+            .catch((error) => console.error("An error occurred while fetching the data:", error));
+        } else {
+          // Update search results to show no input given or show default message
+          document.getElementById("searchResults").innerHTML = "<p>Please enter a search term.</p>";
+        }
+      }
+
+      // Function to update the DOM with the search results
+      function updateSearchResults(results) {
+        const resultsContainer = document.getElementById("searchResults");
+        // Clear previous results
+        resultsContainer.innerHTML = "";
+
+        // Check if there are any results
+        if (results.length === 0) {
+          resultsContainer.innerHTML = "<p>No profiles found.</p>";
+          return;
         }
 
-        function createPagination() {
-          const paginationContainer = document.querySelector(".profile-tab-pagination"); // your pagination container
-          for (let i = 1; i <= totalPages; i++) {
-            let pageLink = document.createElement("a");
-            pageLink.innerText = i;
-            pageLink.href = "#";
-            pageLink.onclick = function (e) {
-              e.preventDefault();
-              currentPage = i;
-              showPage(currentPage);
-            };
-            paginationContainer.appendChild(pageLink);
-          }
-        }
-
-        // Initialize
-        showPage(currentPage);
-        createPagination();
-      });
+        // Create and append the results elements to the container
+        results.forEach((profile) => {
+          const profileDiv = document.createElement("div");
+          profileDiv.className = "search-result";
+          profileDiv.innerHTML = `
+        <h2>${profile.hoten}</h2>
+        <p>${profile.chucvu}</p>
+      `;
+          resultsContainer.appendChild(profileDiv);
+        });
+      }
     </script>
   </body>
 </html>

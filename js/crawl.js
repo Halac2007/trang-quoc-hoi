@@ -78,12 +78,6 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
           console.log(pText);
         });
 
-        // var parser = new DOMParser();
-        // var htmlDoc = parser.parseFromString(text, "text/html");
-        // console.log(htmlDoc);
-        // var pText = htmlDoc.querySelector("p").textContent;
-        // console.log(pText);
-
         const html = `
         <article class="item">
                 <div class="thumb">
@@ -109,3 +103,40 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
         skList.insertAdjacentHTML("beforeend", html);
       });
   });
+
+//
+
+fetch(`https://plo.vn/rss/thoi-su-1.rss`)
+  .then((response) => response.text())
+  .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
+  .then((data) => {
+    const items = data.querySelectorAll("item");
+
+    //list ld
+    Array.from(items)
+      .slice(5, 20)
+      .map((el) => {
+        const skList = document.querySelector(".timeline-news");
+        const html = `
+        <article class="item">
+                      <div class="thumb">
+                      <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                      </div>
+                      <div class="des">
+                      <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+                        <div class="sapo">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda consectetur
+                          cumque! Voluptatum, sit ipsam!
+                        </div>
+                      </div>
+                    </article>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html);
+      });
+  });
+
+//

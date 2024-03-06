@@ -422,3 +422,36 @@ a {
   pointer-events: none;
   opacity: 0.5;
 }
+
+/*-----------timeline-news-----------*/
+.timeline-news .item {
+  display: flex;
+  justify-content: space-around;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.timeline-news .item .thumb {
+  width: 600px;
+}
+.timeline-news .item .thumb img {
+  width: 100%;
+}
+
+.category-item img {
+  width: 100%;
+}
+
+.box-right .category-item .item {
+  display: flex;
+}
+
+.box-right .category-item .item .thumb {
+  width: 300px;
+}
+
+.box-right .category-item .item .thumb img {
+  width: 100%;
+}

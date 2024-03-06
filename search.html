@@ -91,16 +91,14 @@
           </ul>
           <input type="text" class="form-control" id="searchInput" placeholder="Nhập tên hồ sơ" aria-label="Nhập tên hồ sơ" aria-describedby="button-addon2" />
           <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="searchButton">Tìm kiếm</button>
+            <button class="btn btn-outline-secondary" type="button" id="searchButton" onclick="searchData()">Tìm kiếm</button>
           </div>
         </div>
       </div>
-      <div class="title"><h1>Trang đại biểu quốc hội</h1></div>
-
-      <div id="pageDaibieuquochoi" class="body-profile"></div>
-      <div id="pagination" class="pagination"></div>
+      <section id="results-section">
+        <!-- Results will be rendered here -->
+      </section>
     </div>
-
     <script src="js/main.js"></script>
   </body>
 </html>
