@@ -114,7 +114,7 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
 
     //list ld
     Array.from(items)
-      .slice(5, 20)
+      .slice(5, 15)
       .map((el) => {
         const skList = document.querySelector(".timeline-news");
         const html = `
@@ -140,3 +140,187 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
   });
 
 //
+
+fetch(`https://plo.vn/rss/thoi-su-2.rss`)
+  .then((response) => response.text())
+  .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
+  .then((data) => {
+    const items = data.querySelectorAll("item");
+
+    //list ld
+    Array.from(items)
+      .slice(0, 1)
+      .map((el) => {
+        const skList = document.querySelector(".box-chinhtri .box-left");
+
+        const html = `
+        <div class="category-item">
+        <article class="item">
+        <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+          <div class="des">
+          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+            <div class="sapo">
+              <a href=""
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
+                consectetur cumque! Voluptatum, sit ipsam!</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html);
+      });
+    //
+    Array.from(items)
+      .slice(1, 6)
+      .map((el) => {
+        const skList = document.querySelector(".box-chinhtri .box-right");
+        const html1 = `
+        <div class="category-item">
+                        <article class="item">
+                          <div class="des">
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+                          </div>
+                          <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+                        </article>
+                      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html1);
+      });
+  });
+//
+
+fetch(`https://plo.vn/rss/thoi-su-4.rss`)
+  .then((response) => response.text())
+  .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
+  .then((data) => {
+    const items = data.querySelectorAll("item");
+
+    //list ld
+    Array.from(items)
+      .slice(0, 1)
+      .map((el) => {
+        const skList = document.querySelector(".box-thoiluan .box-left");
+
+        const html = `
+        <div class="category-item">
+        <article class="item">
+        <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+          <div class="des">
+          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+            <div class="sapo">
+              <a href=""
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
+                consectetur cumque! Voluptatum, sit ipsam!</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html);
+      });
+    //
+    Array.from(items)
+      .slice(1, 6)
+      .map((el) => {
+        const skList = document.querySelector(".box-thoiluan .box-right");
+        const html1 = `
+        <div class="category-item">
+                        <article class="item">
+                          <div class="des">
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+                          </div>
+                          <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+                        </article>
+                      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html1);
+      });
+  });
+//
+fetch(`https://plo.vn/rss/thoi-su-23.rss`)
+  .then((response) => response.text())
+  .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
+  .then((data) => {
+    const items = data.querySelectorAll("item");
+
+    //list ld
+    Array.from(items)
+      .slice(0, 1)
+      .map((el) => {
+        const skList = document.querySelector(".box-anninhtrattu .box-left");
+
+        const html = `
+        <div class="category-item">
+        <article class="item">
+        <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+          <div class="des">
+          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+            <div class="sapo">
+              <a href=""
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
+                consectetur cumque! Voluptatum, sit ipsam!</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html);
+      });
+    //
+    Array.from(items)
+      .slice(1, 6)
+      .map((el) => {
+        const skList = document.querySelector(".box-anninhtrattu .box-right");
+        const html1 = `
+        <div class="category-item">
+                        <article class="item">
+                          <div class="des">
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          .querySelector("title")
+          .innerHTML.replace("<![CDATA[", "")
+          .replace("]]>", "")} </a></h5>
+                          </div>
+                          <div class="thumb">
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        </div>
+                        </article>
+                      </div>
+        `;
+
+        skList.insertAdjacentHTML("beforeend", html1);
+      });
+  });

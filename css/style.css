@@ -446,6 +446,9 @@ a {
 
 .box-right .category-item .item {
   display: flex;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 10px;
 }
 
 .box-right .category-item .item .thumb {
