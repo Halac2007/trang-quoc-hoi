@@ -183,7 +183,7 @@ li {
   flex-wrap: wrap;
   justify-content: left;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 .body-profile .box-item {
   width: 30%;
@@ -457,4 +457,37 @@ a {
 
 .box-right .category-item .item .thumb img {
   width: 100%;
+}
+
+.box-anninhtrattu .box-right .category-item .item .thumb,
+.box-chinhtri .box-right .category-item .item .thumb,
+.box-thoiluan .box-right .category-item .item .thumb {
+  width: 300px;
+}
+.box-anninhtrattu .box-right .category-item .item .thumb img,
+.box-chinhtri .box-right .category-item .item .thumb img,
+.box-thoiluan .box-right .category-item .item .thumb img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .body-profile .box-item {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media only screen and (max-width: 575.98px) {
+  .body-profile .box-item {
+    width: 100%;
+  }
+  .timeline-news .item {
+    display: flex;
+    flex-direction: column;
+  }
 }

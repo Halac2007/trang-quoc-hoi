@@ -185,15 +185,16 @@ fetch(`https://plo.vn/rss/thoi-su-2.rss`)
         const html1 = `
         <div class="category-item">
                         <article class="item">
+                        <div class="thumb">
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        </div>
                           <div class="des">
                           <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
                           </div>
-                          <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
-        </div>
+                         
                         </article>
                       </div>
         `;
@@ -247,15 +248,16 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
         const html1 = `
         <div class="category-item">
                         <article class="item">
+                        <div class="thumb">
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        </div>
                           <div class="des">
                           <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
                           </div>
-                          <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
-        </div>
+                     
                         </article>
                       </div>
         `;
@@ -308,15 +310,16 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
         const html1 = `
         <div class="category-item">
                         <article class="item">
+                        <div class="thumb">
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        </div>
                           <div class="des">
                           <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
                           </div>
-                          <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
-        </div>
+                        
                         </article>
                       </div>
         `;
