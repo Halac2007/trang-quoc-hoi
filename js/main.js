@@ -202,6 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("dulieu.json")
       .then((res) => res.json())
       .then((data) => {
+        console.log("mememee");
         //
         if (window.location.pathname.endsWith("index.html")) {
           console.log("testurrl", window.location.pathname.endsWith("index.html"));
