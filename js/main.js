@@ -202,14 +202,16 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("dulieu.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log("mememee");
+        console.log("duliey", data);
         //
         if (window.location.pathname.endsWith("index.html")) {
           console.log("testurrl", window.location.pathname.endsWith("index.html"));
           renderHome(data);
+          console.log("mememee");
         } else if (window.location.pathname.endsWith("uyvientrunguong.html")) {
           renderUyvientrunguong(data);
           displayPageUyvienTrunguong(data);
+          console.log("uyvien");
 
           // Thêm nút phân trang
         } else if (window.location.pathname.endsWith("daibieuquochoi.html")) {
