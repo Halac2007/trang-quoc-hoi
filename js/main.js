@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //
 
   function fetchData() {
-    fetch("../data/thongtin.json")
+    fetch("https://bemai-appquochoi.netlify.app/data/thongtin.json")
       .then((res) => res.json())
       .then((data) => {
         //
