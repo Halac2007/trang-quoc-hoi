@@ -26,9 +26,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   //
   const renderHome = (data) => {
-    const profilesContainerChinhTrigia = document.querySelector("#chinhtrigia-list");
+    const profilesContainerChinhTrigia = document.getElementById("chinhtrigia-list");
     console.log("chinhtri", profilesContainerChinhTrigia);
     const profilesContainerDaiBieuQuocHoi = document.querySelector("#daibieuquochoi-list");
+    console.log("daibieu", profilesContainerChinhTrigia);
+
     const profilesContainerUyVienTrungUong = document.querySelector("#uyvientrunguong-list");
 
     const chinhTrigiaProfiles = filterProfilesByType(data, "chinhtrigia");
