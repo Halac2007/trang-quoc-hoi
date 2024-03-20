@@ -95,7 +95,9 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a>
                   </h5>
-                  <div class="sapo"></div>
+                  <div class="sapo">
+                  ${el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "")}
+                  </div>
                 </div>
               </article>
         `;
@@ -117,6 +119,10 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
       .slice(5, 15)
       .map((el) => {
         const skList = document.querySelector(".timeline-news");
+        const cdataContent = el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+        const parser = new DOMParser();
+        const htmlDoc = parser.parseFromString(cdataContent, "text/html");
+        const pTagsText = htmlDoc.querySelector("p").textContent;
         const html = `
         <article class="item">
                       <div class="thumb">
@@ -128,8 +134,7 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
                         <div class="sapo">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda consectetur
-                          cumque! Voluptatum, sit ipsam!
+                        ${pTagsText}
                         </div>
                       </div>
                     </article>
@@ -152,7 +157,10 @@ fetch(`https://plo.vn/rss/thoi-su-2.rss`)
       .slice(0, 1)
       .map((el) => {
         const skList = document.querySelector(".box-chinhtri .box-left");
-
+        const cdataContent = el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+        const parser = new DOMParser();
+        const htmlDoc = parser.parseFromString(cdataContent, "text/html");
+        const pTagsText = htmlDoc.querySelector("p").textContent;
         const html = `
         <div class="category-item">
         <article class="item">
@@ -166,8 +174,7 @@ fetch(`https://plo.vn/rss/thoi-su-2.rss`)
           .replace("]]>", "")} </a></h5>
             <div class="sapo">
               <a href=""
-                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
-                consectetur cumque! Voluptatum, sit ipsam!</a
+                >${pTagsText}</a
               >
             </div>
           </div>
@@ -215,7 +222,10 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
       .slice(0, 1)
       .map((el) => {
         const skList = document.querySelector(".box-thoiluan .box-left");
-
+        const cdataContent = el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+        const parser = new DOMParser();
+        const htmlDoc = parser.parseFromString(cdataContent, "text/html");
+        const pTagsText = htmlDoc.querySelector("p").textContent;
         const html = `
         <div class="category-item">
         <article class="item">
@@ -229,8 +239,7 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
           .replace("]]>", "")} </a></h5>
             <div class="sapo">
               <a href=""
-                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
-                consectetur cumque! Voluptatum, sit ipsam!</a
+                >${pTagsText}</a
               >
             </div>
           </div>
@@ -265,6 +274,19 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
         skList.insertAdjacentHTML("beforeend", html1);
       });
   });
+
+//
+function getTextFromCDATA(cdataContent) {
+  const parser = new DOMParser();
+  const xmlDoc = parser.parseFromString(cdataContent, "text/xml");
+  const pElement = xmlDoc.querySelector("p");
+  return pElement ? pElement.textContent : "";
+}
+
+// Sử dụng hàm này với CDATA content của bạn
+const cdataContent = "CDATA content";
+const textFromP = getTextFromCDATA(cdataContent);
+
 //
 fetch(`https://plo.vn/rss/thoi-su-23.rss`)
   .then((response) => response.text())
@@ -277,7 +299,10 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
       .slice(0, 1)
       .map((el) => {
         const skList = document.querySelector(".box-anninhtrattu .box-left");
-
+        const cdataContent = el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+        const parser = new DOMParser();
+        const htmlDoc = parser.parseFromString(cdataContent, "text/html");
+        const pTagsText = htmlDoc.querySelector("p").textContent;
         const html = `
         <div class="category-item">
         <article class="item">
@@ -291,8 +316,7 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
           .replace("]]>", "")} </a></h5>
             <div class="sapo">
               <a href=""
-                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis delectus laboriosam optio. Dolorum tempora assumenda
-                consectetur cumque! Voluptatum, sit ipsam!</a
+                >${pTagsText}</a
               >
             </div>
           </div>
@@ -319,7 +343,7 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
                           </div>
-                        
+                        <p>${textFromP}</p>
                         </article>
                       </div>
         `;

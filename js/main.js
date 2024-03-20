@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //
 
   function fetchData() {
-    fetch("dulieu.json")
+    fetch("/dulieu.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("duliey", data);
