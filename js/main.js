@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   //
   const createProfileCard = (profile) => {
+    console.log("profile", profile);
     const card = document.createElement("div");
     card.className = "box-item";
     card.innerHTML = `<img src="${profile.anh}" alt="Profile Image">
@@ -202,10 +203,10 @@ document.addEventListener("DOMContentLoaded", function () {
   //
 
   function fetchData() {
-    fetch("/dulieu.json")
+    fetch("./data/thongtin.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log("duliey", data);
+        console.log("dulieu", data);
         //
         if (window.location.pathname.endsWith("index.html")) {
           console.log("testurrl", window.location.pathname.endsWith("index.html"));
