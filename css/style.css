@@ -433,20 +433,20 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
-.timeline-news .item .thumb {
-  width: 450px;
-}
-.timeline-news .item .thumb a {
-  width: 100%;
-  height: 100%;
-}
 .timeline-news .item .thumb img {
-  width: 100%;
+  width: 200px;
   height: auto;
+  object-fit: cover;
+  max-width: 350px;
+  max-height: auto;
 }
 
 .category-item img {
-  width: 100%;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  max-width: 350px;
+  max-height: auto;
 }
 
 .box-right .category-item .item {
@@ -456,23 +456,20 @@ a {
   padding: 10px;
 }
 
-.box-right .category-item .item .thumb {
-  width: 300px;
+.item .thumb img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  max-width: 350px;
+  max-height: auto;
 }
 
-.box-right .category-item .item .thumb img {
-  width: 100%;
-}
-
-.box-anninhtrattu .box-right .category-item .item .thumb,
-.box-chinhtri .box-right .category-item .item .thumb,
-.box-thoiluan .box-right .category-item .item .thumb {
-  width: 300px;
-}
 .box-anninhtrattu .box-right .category-item .item .thumb img,
 .box-chinhtri .box-right .category-item .item .thumb img,
 .box-thoiluan .box-right .category-item .item .thumb img {
-  width: 100%;
+  width: 120px;
+  height: auto;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 1200px) {
