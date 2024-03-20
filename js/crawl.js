@@ -12,10 +12,10 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
         const html = `
               <article class="article-item">
                 <div class="thumb">
-                  <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                  <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" target="_blank" alt="" /></a>
                 </div>
                 <div class="title">
-                  <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                  <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -41,10 +41,10 @@ fetch(`https://plo.vn/rss/video-25.rss`)
         const html = `
               <article class="article-item">
                 <div class="thumb">
-                  <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                  <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML} target="_blank"" alt="" /></a>
                 </div>
                 <div class="title">
-                  <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                  <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -90,7 +90,7 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
                 </div>
                 <div class="des">
                   <h5 class="title">
-                    <a href="${el.querySelector("link").getAttribute("href")}">${el
+                    <a href="${el.querySelector("link").getAttribute("href")}" target="_blank">${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a>
@@ -126,10 +126,10 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
         const html = `
         <article class="item">
                       <div class="thumb">
-                      <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                      <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" target="_blank" alt="" /></a>
                       </div>
                       <div class="des">
-                      <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                      <h5><a href="${el.querySelector("link").getAttribute("href")} " target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -165,10 +165,10 @@ fetch(`https://plo.vn/rss/thoi-su-2.rss`)
         <div class="category-item">
         <article class="item">
         <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" target="_blank" alt="" /></a>
         </div>
           <div class="des">
-          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -193,10 +193,12 @@ fetch(`https://plo.vn/rss/thoi-su-2.rss`)
         <div class="category-item">
                         <article class="item">
                         <div class="thumb">
-                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${
+          el.querySelector("image").innerHTML
+        }" target="_blank" alt="" /></a>
                         </div>
                           <div class="des">
-                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -230,10 +232,10 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
         <div class="category-item">
         <article class="item">
         <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        <a href="${el.querySelector("link").getAttribute("href")}" target="_blank"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
         </div>
           <div class="des">
-          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -258,10 +260,12 @@ fetch(`https://plo.vn/rss/thoi-su-4.rss`)
         <div class="category-item">
                         <article class="item">
                         <div class="thumb">
-                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${
+          el.querySelector("image").innerHTML
+        }" target="_blank" alt="" /></a>
                         </div>
                           <div class="des">
-                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -307,10 +311,10 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
         <div class="category-item">
         <article class="item">
         <div class="thumb">
-        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" target="_blank" alt="" /></a>
         </div>
           <div class="des">
-          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>
@@ -335,10 +339,12 @@ fetch(`https://plo.vn/rss/thoi-su-23.rss`)
         <div class="category-item">
                         <article class="item">
                         <div class="thumb">
-                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" alt="" /></a>
+                        <a href="${el.querySelector("link").getAttribute("href")}"><img src="${
+          el.querySelector("image").innerHTML
+        }" target="_blank" alt="" /></a>
                         </div>
                           <div class="des">
-                          <h5><a href="${el.querySelector("link").getAttribute("href")}"> ${el
+                          <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")
           .innerHTML.replace("<![CDATA[", "")
           .replace("]]>", "")} </a></h5>

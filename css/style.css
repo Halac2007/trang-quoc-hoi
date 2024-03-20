@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -181,7 +181,7 @@ li {
 .body-profile {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   gap: 15px;
 }
@@ -266,8 +266,10 @@ padding: 10px 10px;
 a {
   text-decoration: none;
 }
+
 .title-group .sub-title a {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: #535252;
 }
 
 /*--------crawl css-----*/
@@ -281,7 +283,7 @@ a {
 /*------timeline-----------*/
 
 .timeline {
-  border-left: 1px solid hsl(0, 0%, 90%);
+  border-left: 1px dashed hsl(0, 0%, 50%);
   position: relative;
   list-style: none;
 }
@@ -297,7 +299,7 @@ a {
 }
 
 .timeline .timeline-item:after {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 20%);
   left: -38px;
   border-radius: 50%;
   height: 11px;
@@ -396,7 +398,7 @@ a {
 }
 
 .item-title {
-  margin-top: 10px;
+  padding: 0px 10px;
 }
 
 .pagination {
@@ -430,7 +432,7 @@ a {
   row-gap: 20px;
   column-gap: 20px;
   padding: 20px 0px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #b8b7b7;
 }
 
 .timeline-news .item .thumb img {
