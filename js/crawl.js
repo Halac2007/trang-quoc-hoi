@@ -33,16 +33,16 @@ fetch(`https://plo.vn/rss/video-25.rss`)
   .then((data) => {
     const items = data.querySelectorAll("item");
 
-    //list ld
+    //list lds
     Array.from(items)
       .slice(0, 5)
       .map((el) => {
         const skList = document.querySelector(".article-list-video");
         const html = `
               <article class="article-item">
-                <div class="thumb">
-                  <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML} target="_blank"" alt="" /></a>
-                </div>
+              <div class="thumb">
+              <a href="${el.querySelector("link").getAttribute("href")}"><img src="${el.querySelector("image").innerHTML}" target="_blank" alt="" /></a>
+            </div>
                 <div class="title">
                   <h5><a href="${el.querySelector("link").getAttribute("href")}" target="_blank"> ${el
           .querySelector("title")

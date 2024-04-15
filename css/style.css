@@ -202,11 +202,26 @@ li {
   transform: scale(1.1);
 }
 
+.box-item {
+  width: 30%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
 .box-item img {
-  width: 100%;
+  /* width: 100%;
   height: auto;
   display: block;
-  border-radius: 50%; /* Đặt border-radius là 50% để làm hình tròn */
+  border-radius: 50%; */
+  clip-path: circle(50%);
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
 }
 
 .body-profile .box-item:hover {
