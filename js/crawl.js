@@ -116,7 +116,7 @@ fetch(`https://plo.vn/rss/thoi-su-1.rss`)
 
     //list ld
     Array.from(items)
-      .slice(5, 15)
+      .slice(5, 14)
       .map((el) => {
         const skList = document.querySelector(".timeline-news");
         const cdataContent = el.querySelector("description").innerHTML.replace("<![CDATA[", "").replace("]]>", "");

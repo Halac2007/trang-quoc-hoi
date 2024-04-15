@@ -161,9 +161,9 @@ li {
 }
 
 .mx-background-top-linear {
-  background: -webkit-linear-gradient(45deg, #feece2 28%, #1b1e21 28%);
-  background: -webkit-linear-gradient(left, #feece2 28%, #1b1e21 28%);
-  background: linear-gradient(45deg, #feece2 28%, #1b1e21 28%);
+  background: -webkit-linear-gradient(45deg, #f6d864 28%, #1b1e21 28%);
+  background: -webkit-linear-gradient(left, #f6d864 28%, #1b1e21 28%);
+  background: linear-gradient(45deg, #f6d864 28%, #1b1e21 28%);
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -487,6 +487,10 @@ a {
   width: 120px;
   height: auto;
   object-fit: cover;
+}
+
+footer {
+  padding-top: 5px;
 }
 
 @media only screen and (min-width: 1200px) {
