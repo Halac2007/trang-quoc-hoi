@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function fetchData() {
-    fetch('../data/thongtin.json')
+    fetch('./data/thongtin.json')
       .then((res) => res.json())
       .then((data) => {
         arr = data
