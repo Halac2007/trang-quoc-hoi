@@ -1,5 +1,3 @@
-window.location.href = "index.html";
-
 document.addEventListener("DOMContentLoaded", function () {
   let arr = [];
   //
