@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  if (window.location.pathname === "/") {
-    window.location.href = "/index.html";
-  }
   //
   let arr = [];
   //
@@ -250,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((data) => {
         arr = data;
         //
-        if (window.location.pathname.endsWith("index.html")) {
+        if (window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")) {
           renderHome(data);
         } else if (window.location.pathname.endsWith("uyvientrunguong.html")) {
           renderUyvientrunguong(data);
