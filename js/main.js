@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  //
   let arr = [];
   //
   const createProfileCard = (profile) => {
